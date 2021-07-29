@@ -1,5 +1,3 @@
-# Newroz task-2 
-
 # Project management api
 
 This project include swagger for api documentation. you can find the documentation by visiting

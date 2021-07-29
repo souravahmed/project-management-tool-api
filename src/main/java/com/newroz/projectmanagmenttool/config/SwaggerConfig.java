@@ -12,7 +12,7 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI(@Value("${application-description}") String appDesciption, @Value("${application-version}") String appVersion) {
         return new OpenAPI()
                 .info(new Info()
-                                .title("Newroz task 2 : Project management tool")
+                                .title("Project management tool")
                                 .version(appVersion)
                                 .description(appDesciption));
     }
